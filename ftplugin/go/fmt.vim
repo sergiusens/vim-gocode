@@ -44,7 +44,7 @@ if g:go_fmt_autofmt
 endif
 
 if !exists("g:gofmt_command")
-    let g:gofmt_command = "gofmt"
+    let g:gofmt_command = "goimports"
 endif
 
 function! s:GoFormat()
